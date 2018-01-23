@@ -1,0 +1,24 @@
+{
+  "ProtocolConfiguration": {
+    "Magic": 12345678,
+    "AddressVersion": 23,
+    "StandbyValidators": [
+      "0371568c58c85e7c1237f0b8ca029139ac0ce97bbb11eeb67bb9e3b6fbfc0182df",
+      "03ebdefbc19cff99e8a87e7303ec0ff67ea6b1fa1766c6770e4128526c9803ecd4",
+      "039b1c1f9120ed823cf5f7207eb0ed50c2ef6cc4b3a6ea0e0073f6ed7410ee5151",
+      "03156d1c0e315d63d400c695261d169c881f550e7a17757963489ecc30d4fa5604"
+      ],
+    "SeedList": [
+      "privatechain1.neolab.local:10333",
+      "privatechain2.neolab.local:10333",
+      "privatechain3.neolab.local:10333",
+      "privatechain4.neolab.local:10333"
+      ],
+    "SystemFee": {
+      "EnrollmentTransaction": 1000,
+      "IssueTransaction": 500,
+      "PublishTransaction": 500,
+      "RegisterTransaction": 10000
+    }
+  }
+}
